@@ -2,8 +2,9 @@ from django.urls import path
 from . import views
 from django.conf import settings
 from django.conf.urls.static import static
+from students.apps import StudentsConfig
 
-app_name = 'students'
+app_name = StudentsConfig.name
 
 urlpatterns = [
     path('', views.about, name='about'),
