@@ -3,8 +3,8 @@
     "model": "students.student",
     "pk": 1,
     "fields": {
-        "first_name": "Vasiliy",
-        "last_name": "Sochnev",
+        "first_name": "Василий",
+        "last_name": "Сочнев",
         "year": "first"
     }
 },
