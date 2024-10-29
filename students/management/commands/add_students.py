@@ -8,8 +8,8 @@ class Command(BaseCommand):
         group, _ = Group.objects.get_or_create(name='Группа 1')
 
         students = [
-            {'first_name': 'Иван', 'last_name': 'Иванов', 'year': Student.FIRST_YEAR, 'group': group},
-            {'first_name': 'Петр', 'last_name': 'Петров', 'year': Student.SECOND_YEAR, 'group': group},
+            {'first_name': 'Иван', 'last_name': 'Петров', 'year': Student.FIRST_YEAR, 'group': group},
+            {'first_name': 'Петр', 'last_name': 'Иванов', 'year': Student.SECOND_YEAR, 'group': group},
             {'first_name': 'Сергей', 'last_name': 'Сергеев', 'year': Student.THIRD_YEAR, 'group': group},
         ]
 
