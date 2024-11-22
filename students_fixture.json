@@ -1,20 +1,22 @@
 [
 {
     "model": "students.student",
-    "pk": 1,
+    "pk": 4,
     "fields": {
-        "first_name": "Василий",
-        "last_name": "Сочнев",
-        "year": "first"
+        "first_name": "Садам",
+        "last_name": "Хусейн",
+        "year": "first",
+        "group": 1
     }
 },
 {
     "model": "students.student",
-    "pk": 2,
+    "pk": 5,
     "fields": {
-        "first_name": "Иван",
-        "last_name": "Иванов",
-        "year": "first"
+        "first_name": "Сеня",
+        "last_name": "Пирожков",
+        "year": "first",
+        "group": 1
     }
 }
 ]
